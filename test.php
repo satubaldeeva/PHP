@@ -13,7 +13,6 @@
     //Create Employee with invalid data
     try {
         $Employee4 = new Employee(78, "Tom", 12000, '01092020');
-    
     } catch(Exception $e) {
         echo $e->getMessage()."\n";
     }
@@ -63,5 +62,4 @@
     }
     echo "-------------------------------------------\n";
     }
-
 ?>
