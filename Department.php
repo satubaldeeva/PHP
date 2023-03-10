@@ -25,7 +25,6 @@
             foreach ($this->Employees as $emp) {
                 echo $emp->beautiful_string();
             }
-            
         }
     }
 ?>
