@@ -4,7 +4,8 @@
         public function __construct(private string $name, private $Employees)
         {
         }
-        public function get_name(): string{
+        public function getName(): string
+        {
             return $this->name;
         }
         public function get_count_employee(): int
