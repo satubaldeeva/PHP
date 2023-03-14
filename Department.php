@@ -8,7 +8,7 @@
         {
             return $this->name;
         }
-        public function get_count_employee(): int
+        public function getCountEmployee(): int
         {
             return count($this->Employees);
         }
