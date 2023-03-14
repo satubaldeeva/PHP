@@ -75,5 +75,3 @@
         return 'ID: ' . $this->get_id() . ' Name: ' . $this->get_name() . ' Salary: '. $this->get_salary() . ' Work since: '.$this->get_date()->format('d-m-Y') . "\n";
       }
   }
-
-?>
