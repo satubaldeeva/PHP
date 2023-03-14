@@ -1,7 +1,7 @@
 <?php
     class Department
     {
-        public function __construct(private string $name, private $Employees)
+        public function __construct(private string $name, private array $employees)
         {
         }
         public function getName(): string
