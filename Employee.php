@@ -51,7 +51,7 @@
         
       } 
 
-      public  function validator($id,$name,$salary,$date): void
+      public function validator(int $id, string $name, string $salary, string $date): void
       {
         $validator = Validation::createValidator();
         $input = ['id'=> $id, 'name' => $name, 'salary' => $salary, 'date' => $date ];
